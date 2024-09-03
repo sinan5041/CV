@@ -1,0 +1,57 @@
+.for-name-font {
+    font-family: 'Brush Script MT', cursive;
+    text-align: center;
+    font-size: 42px;
+    margin-top: 10px;
+    display: inline-block;
+}
+
+body {
+    text-align: center;
+    background-image: url('https://media4.giphy.com/media/v1.Y2lkPTc5MGI3NjExbnl5OGFnbDhldXl1a292bTU1eTdvN3gycXF6NmFneXU3YmQ5ZDdmMiZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/U3qYN8S0j3bpK/giphy.webp');
+    background-size: cover;
+    /* Resmi sayfanın tamamına yayar */
+    background-attachment: fixed;
+    /* Arka plan resmi sayfanın kaydırılmasından etkilenmez */
+    background-position: center;
+    /* Resmi ortalar */
+    background-repeat: no-repeat;
+    /* Resmi tekrar etmez */
+    color: chartreuse;
+
+}
+
+.emoji {
+    width: 100px;
+    height: auto;
+    display: inline-block;
+    margin-left: 5px;
+
+}
+
+.backgr {
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+    height: 50vh;
+    opacity: 0.4;
+    z-index: 0;
+}
+
+.font2 {
+    font-family: "Helvetica,cursive";
+    font-size: 42px;
+}
+
+.sticker {
+    width: 2%;
+    float: left;
+    margin-left: 25px;
+    display: inline-block;
+}
+
+.custom-hr {
+    height: 2px;
+    background-color: black;
+    margin-left: 10px;
+}
